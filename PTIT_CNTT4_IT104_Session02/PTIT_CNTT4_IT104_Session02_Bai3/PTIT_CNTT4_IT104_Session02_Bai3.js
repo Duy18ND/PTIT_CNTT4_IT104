@@ -1,9 +1,6 @@
-const typeConsole = (type) => {
-    if(type === "log"){
-        console.log("Đây là type: log");
-    }else if(type === "warn"){
-        console.log("Đây là type: warn");
-    }
-    console.log("Đây là type: log");
+function typeConsole(type = 'log'){
+    return `Day la type ${type} cua console`;
 }
-typeConsole();
+console.log(typeConsole());
+console.error(typeConsole('error'));
+console.warn(typeConsole('warn'));
