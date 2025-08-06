@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",            // hoặc thử "none" nếu không dùng module
+    "esModuleInterop": false,        // tắt chế độ tương thích
+    "target": "esnext",              // giữ nguyên hoặc thay "es5"
+    "declaration": false,            // nếu không cần .d.ts
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
