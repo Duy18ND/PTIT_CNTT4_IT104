@@ -67,8 +67,8 @@ class Classroomm {
 
 // Danh sach tat ca hoc sinh ban dau
 allStudents.push(
-    new Studentt(1, "An"),
-    new Studentt(2, "Binh"),
+    new Studentt(1, "Duy"),
+    new Studentt(2, "Hoa"),
     new Studentt(3, "Chi"),
 );
 
@@ -91,6 +91,6 @@ classAa.showStudents();
 console.log("Danh sach tat ca hoc sinh sau khi tra ve:");
 console.log(allStudents.map(s => `ID: ${s.getId()}, Ten: ${s.getName()}`));
 
-classAa.editStudent(3, "Chien");
+classAa.editStudent(2, "Chien");
 console.log("Lop A sau khi sua ten hoc sinh ID 3:");
 classAa.showStudents();
