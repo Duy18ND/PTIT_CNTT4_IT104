@@ -1,0 +1,37 @@
+.container06{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px
+}
+header{
+    background-color: #d1d5db;
+    width: 100%;
+    padding: 20px 0;
+}
+section{
+    display: flex;
+    
+}
+menu{
+    align-content: center;
+    margin: 0px;
+    background-color: #1e3a8a;
+    width: 30%;
+    height: 100vh;
+}
+.container-main-footer{
+    align-content: center;
+    border: 40px  solid #f3f4f6;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    height: 90%;
+}
+footer{
+    background-color: #cbd5e1;
+    height: 10%;
+    align-content: center;
+}
