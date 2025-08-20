@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Title from './title'
 export default function EXERCISE09() {
   return (
     <div>
@@ -9,9 +9,7 @@ export default function EXERCISE09() {
             <div className="col col-xl-10">
               <div className="card">
                 <div className="card-body p-5">
-                  <h3 style={{ textAlign: "center", marginBottom: 40 }}>
-                    Quản lý công việc
-                  </h3>
+                  <Title></Title>
 
                   <form
                     className="d-flex justify-content-center align-items-center mb-4"
