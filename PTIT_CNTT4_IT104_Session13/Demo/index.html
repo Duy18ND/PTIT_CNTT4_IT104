@@ -1,13 +1,106 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title translate="no">For students - Enter a Wayground code</title>
+  <meta charset="utf-8" translate="no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta hid="description" translate="no" name="description"
+    content="Join an activity with your class and find or create your own quizzes and flashcards." />
+
+  <link rel="preconnect" href="https://cf.quizizz.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://notif.wayground.com" />
+  <link rel="preconnect" href="https://fnl.wayground.com" />
+  <link rel="preconnect" href="https://game.wayground.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://media.wayground.com" />
+
+  <link rel="icon" type="image/x-icon" href="https://cf.quizizz.com/img/wayground/brand/favicon/favicon-32x32.ico" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@quizizz" />
+  <meta name="twitter:image" content="https://cf.quizizz.com/img/wayground/brand/wayground_og_marketing.png" />
+  <meta property="og:image" content="https://cf.quizizz.com/img/wayground/brand/wayground_og_marketing.png" />
+  <meta name="twitter:title" content="Quizizz: Practice link" />
+  <meta property="og:title" content="Quizizz: Practice link" />
+  <meta name="twitter:description" content="Click the link to join now." />
+  <meta property="og:description" content="Click the link to join now." />
+  <meta name="og:url" content="https://wayground.com/join" />
+  <meta name="og:type" content="website" />
+  <meta name="og:app_id" content="1589541687945427" />
+</head>
+
+<body>
+  <div id="__join"> </div>
+  <div id="root">
+    <div
+      style="color: #fff; font-weight: bold; font-size: 20px; position: absolute; left: 50%; top: 50%; translate: -50% -50%;">
+      Connecting...</div>
+  </div>
+  
+  <link rel="stylesheet" href="https://cf.quizizz.com/assets/v3/j/scripts/css/main.CULvOp4E.css" as="style">
+  
+
+  <script>
+    window.fullAPIPrefix = 'https:\/\/wayground.com\/_api\/main';
+    window.requestCountry = 'VN';
+    
+    fetch(window.fullAPIPrefix + '/user?subscriptionData=true', {
+      credentials: 'include',
+      redirect: 'manual'
+    })
+      .then(response => response.json())
+      .then(data => {
+        if (data && data.success) {
+          window.user = data.data.user;
+        }
+
+        if (typeof window.user === "undefined") {
+          window.user = {};
+        }
+      })
+      .catch(error => {
+        console.log('Error fetching user:', error);
+      }).finally(() => {
+        
+        if (window.user && window.user.occupation && window.user.occupation === 'corporate_learner') {
+          window.location.href = '/pro/join';
+        }
+
+        
+        
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = "https:\/\/cf.quizizz.com\/assets\/v3\/j\/scripts\/css\/main.CULvOp4E.css";
+        link.as = 'style';
+        document.body.appendChild(link);
+        
+        
+        
+        const script = document.createElement('script');
+        script.src = "https:\/\/cf.quizizz.com\/assets\/v3\/j\/scripts\/js\/main.9wj-i4-S.js";
+        script.type = 'module';
+        document.body.appendChild(script);
+        
+      })
+    window.googleClientId = '58172892053-6laet7k6ls3k5va0jija3b175sm3jjms.apps.googleusercontent.com';
+    window.src = "renderserver";
+    window.isProJoinRoute = window.location.href.indexOf('/pro/join') !== -1;
+    
+    if (window.isProJoinRoute) {
+      document.title = 'Join an activity — Wayground';
+
+      var meta = document.createElement('meta');
+      meta.name = 'robots';
+      meta.content = 'noindex, follow';
+      document.head.appendChild(meta);
+    } else {
+      document.title = 'For students — Enter a Wayground Code ';
+    }
+  </script>
+</body>
+
 </html>
