@@ -1,0 +1,40 @@
+.container05 {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+.body05{
+    margin-top: 30px;
+    background-color: #ffffff;
+    border: 1px solid #c8c8c8;
+    font-family: sans-serif;
+    width: 350px;
+    border-radius: 7px;
+}
+.container05{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.h2_05{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    height: 25px;
+}
+label{
+    font-size: 18px;
+}
+.btn05{
+    background-color: #0000ff;
+    color: white;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+}

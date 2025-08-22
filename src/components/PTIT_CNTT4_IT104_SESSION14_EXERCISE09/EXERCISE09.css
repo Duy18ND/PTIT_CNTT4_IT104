@@ -1,0 +1,67 @@
+.body09{
+    border: 1px solid #c8c8c8;
+    width: 800px;
+    font-family: sans-serif;
+}
+.container09{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+}
+.Search{
+    display: flex;
+    width: 100vh;
+}
+.Search input{
+    flex: 1;
+    padding: 5px;
+     border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: 1px solid #c8c8c8;
+    outline: none;
+}
+.Search button{
+    padding: 0px 20px;
+    color: white;
+    background-color: #3b82f6;
+    font-weight: bold;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.box09{
+    display: flex;
+    justify-content: space-between;
+}
+.box09 p {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.edit09, .delete09{
+    padding: 4px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.edit09{
+    background-color: #ffaf00;
+    color: white;
+}
+.delete09{
+    background-color: #eb2b2b;
+    color: white;
+}
+.total09{
+    background-color: #f3f4f6;
+    padding: 10px;
+    width: 100vh;
+}
+.total09 span{
+    font-weight: bold;
+}
+.warning09{
+    color: red;
+}
