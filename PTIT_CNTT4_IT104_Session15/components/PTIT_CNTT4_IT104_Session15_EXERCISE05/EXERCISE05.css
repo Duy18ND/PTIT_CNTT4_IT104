@@ -1,0 +1,279 @@
+.container05{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-family: sans-serif;
+    width: 1000px;
+}
+button{
+    cursor: pointer;
+}
+main{
+    padding: 20px;
+}
+.header05{
+    display: flex;
+    justify-content: space-between;
+}
+.header05 div{
+    align-content: center;
+}
+.header05 button{
+    padding: 10px 20px;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.header05 button:hover{
+    background-color: #1649b6;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.search select, .search input{
+    padding: 5px 15px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+ .search input{
+    border: none;
+    width: 250px;
+}
+.search div{
+    border: 1px solid #767676;
+    border-radius: 3px;
+}
+table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th{
+    padding: 15px 0px;
+    color: #9eabbe;
+}
+td{
+      color: #a3b8d1;
+}
+td:nth-of-type(5){
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid #808080;
+}
+.onActive{
+    border: 1px solid #d4f4bc;
+    background-color: #f6ffed;
+    color: #7ec263;
+}
+.offActive{
+    border: 1px solid #ffc0bc;
+    background-color: #fff1f0;
+    color: #d95d73;
+}
+
+.onActive, .offActive{
+    border-radius: 4px;
+    width: 80%;
+}
+td button {
+    margin-right: 10px;
+}
+.block, .edit, .delete{
+    padding: 3px 5px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.block{
+    border: 1px solid #e5cdfb;
+    background-color: #f9f0ff;
+    color: #926fcb;
+}
+.edit{
+    border: 1px solid #ffe5ba;
+    background-color: #fff7e6;
+    color: #e4a165;
+}
+.delete{
+    border: 1px solid #ffc8c5;
+    background-color: #fff1f0;
+    color: #e37379;
+}
+
+.block:hover{
+    background-color: #ead4f8;
+}
+.edit:hover{
+    background-color: #fdefd0;
+}
+.delete:hover{
+    background-color: #fddbd8;
+}
+.footer{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.footer button{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: none;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.footer button:hover{
+    background-color: #2563eb;
+    color: white;
+}
+
+/* EXECISE10 */
+.overlay {
+    position: fixed;        
+    top: 0;
+    left: 0;
+    width: 100%;           
+    height: 100%;            
+    background-color: rgba(0, 0, 0, 0.5);  
+    z-index: 999;        
+}
+
+
+.containerAddStudent {
+    top: 50%;                
+    left: 50%;          
+    transform: translate(-50%, -50%); 
+    border: 1px solid black;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    width: 400px;
+    z-index: 1000;           
+    position: fixed;         
+}
+
+.addStudent10{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.addStudent10 h2{
+    text-align: center;
+}
+.form10{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form10 input{
+  border: 1px solid #ccc; 
+  border-radius: 6px;   
+  padding: 6px 10px;     
+  transition: border-color 0.2s ease; 
+}
+.form10 input:focus{
+  outline: none;            
+}
+.btn10{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.btn10 .cancel, .btn10 .add{
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.btn10 .cancel{
+    background-color: #fdf0d2;
+    border: 1px solid #fee7c2;
+    color: #e6a185;
+}
+.btn10 .add{
+    background-color: #ff4d4f;
+    border: 1px solid #f8e5e5;
+    color: white;
+}
+
+/* Block */
+.containerStatus{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    width: 460px;
+    font-family: sans-serif;
+    z-index: 1000;
+    position: fixed;
+}
+.containerBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+}
+.title10{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.title10 i{
+   font-size: 25px;
+   color: red;
+}
+.title10{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.btnStatus{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.btnStatus button{
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.btnStatus .cancelStatus{
+    background-color: #fee7c2;
+    color: #e6a185;
+    border: 1px solid #ffe5ba;
+}
+.btnStatus .blockStatus{
+    background-color: #ff3337;
+    color: white;
+    border: 1px solid #ff4d4f;
+}
+.pagination{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.pagination button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pagination button.active {
+    background-color: #007bff;
+    color: white;
+}
