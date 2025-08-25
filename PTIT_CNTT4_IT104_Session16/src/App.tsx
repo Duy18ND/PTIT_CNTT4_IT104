@@ -5,7 +5,7 @@ import EXERCISE03 from './components/PTIT_CNTT4_IT104_Session16_EXERCISE03/EXERC
 import EXERCISE04 from './components/PTIT_CNTT4_IT104_Session16_EXERCISE04/EXERCISE04'
 import EXERCISE05 from './components/PTIT_CNTT4_IT104_Session16_EXERCISE05/EXERCISE05'
 import EXERCISE06 from './components/PTIT_CNTT4_IT104_Session16_EXERCISE06/EXERCISE06'
-import EXERCISE07 from './components/PTIT_CNTT4_IT104_Session16_EXERCISE07/EXERCISE07'
+import EXERCISE07 from './components/PTIT_CNTT4_IT104_Session16_EXERCISE07 + 8/EXERCISE07'
 
 export default function App() {
   return (
