@@ -1,0 +1,10 @@
+.container{
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 450px;
+    height: 200px;
+}
+.container h2{
+    font-size: 25px;
+}

@@ -1,0 +1,17 @@
+.container03{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+.container03 button{
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.container03 a{
+    color: blue;
+}

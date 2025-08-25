@@ -1,0 +1,13 @@
+.subject{
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 40px;
+}
+h1{
+    font-size: 30px;
+}
