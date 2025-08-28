@@ -1,0 +1,20 @@
+.container04{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 300px;
+    gap: 15px;
+}
+.form04{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.form04 input{
+    padding: 5px 10px;
+}
+.container04 button{
+    padding: 5px 0px;
+}

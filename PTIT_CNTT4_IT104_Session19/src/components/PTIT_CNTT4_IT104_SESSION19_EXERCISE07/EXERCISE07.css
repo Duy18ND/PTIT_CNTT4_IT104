@@ -1,0 +1,25 @@
+.container07{
+    height: 100vh;
+    display:100vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #0d6efd;
+    color: "#fff",
+}
+.btn07{
+    padding: 12px 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #0d6efd;
+    cursor: pointer;
+    font-weight: bold;
+}
+.blog07 {
+    padding: 40px;
+    background: #f8f9fa;
+    font-size: 18px;
+}

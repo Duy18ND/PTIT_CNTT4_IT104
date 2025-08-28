@@ -1,0 +1,28 @@
+.lang-container {
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.lang-select {
+  margin-bottom: 16px;
+}
+.lang-dropdown {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.lang-content {
+  padding: 12px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+}
+.lang-text {
+  font-size: 20px;
+  color: #111;
+  font-weight: bold;
+  text-align: center;
+}
