@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@layer components {
+  .box {
+    @apply w-[450px] h-[50px]  font-bold text-amber-50 bg-[#d946ef] flex items-center justify-center ml-10 rounded-[7px];
+  }
+  .container08{
+    @apply border-1 border-[#eef0f2] mt-10 rounded-[7px]
+  }
+  .Block {
+    @apply w-[100px] h-[80px] text-center content-center bg-[#3b82f6] text-amber-50 font-bold rounded-[5px] 
+  }
+}
