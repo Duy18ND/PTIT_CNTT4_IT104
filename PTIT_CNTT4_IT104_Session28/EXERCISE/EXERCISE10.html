@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager voi Callback</title>
+</head>
+<body>
+  <script>
+    function displayTasks(tasks) {
+      console.log("Danh sach cong viec hien tai:", tasks);
+    }
+
+    function addTask(taskName, tasks, callback) {
+      if (tasks.includes(taskName)) {
+        console.log(`Cong viec "${taskName}" da ton tai!`);
+      } else {
+        tasks.push(taskName);
+        callback(`Da them cong viec: "${taskName}"`);
+      }
+    }
+
+    function deleteTask(taskName, tasks, callback) {
+      const index = tasks.indexOf(taskName);
+      if (index === -1) {
+        console.log(`Cong viec "${taskName}" khong ton tai!`);
+      } else {
+        tasks.splice(index, 1);
+        callback(`Da xoa cong viec: "${taskName}"`);
+      }
+    }
+
+    let tasks = ["Hoc JavaScript", "Lam bai tap", "Di tap the duc"];
+
+    displayTasks(tasks);
+
+    addTask("Di cho", tasks, function(message) {
+      console.log(message);
+      displayTasks(tasks);
+    });
+
+    addTask("Di cho", tasks, function(message) {
+      console.log(message);
+      displayTasks(tasks);
+    });
+
+    deleteTask("Lam bai tap", tasks, function(message) {
+      console.log(message);
+      displayTasks(tasks);
+    });
+
+    deleteTask("Ngu trua", tasks, function(message) {
+      console.log(message);
+      displayTasks(tasks);
+    });
+  </script>
+</body>
+</html>
