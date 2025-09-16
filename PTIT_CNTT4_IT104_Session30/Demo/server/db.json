@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "AN",
+      "email": "Duy18nd@gmail.com",
+      "age": 15
+    },
+    {
+      "id": 2,
+      "name": "BS",
+      "email": "Duy18nd@gmail.com",
+      "age": 18
+    },
+    {
+      "id": 3,
+      "name": "Doan Manh Duy",
+      "email": "RT",
+      "age": 18
+    },
+    {
+      "id": 4,
+      "name": "Q",
+      "email": "Duy18nd@gmail.com",
+      "age": 18
+    },
+    {
+      "id": 5,
+      "name": "Doan Manh Duy",
+      "email": "Duy18nd@gmail.com",
+      "age": 18
+    }
+  ]
+}
