@@ -1,0 +1,93 @@
+/* Container ngoài */
+.list-post-container {
+  display: flex;
+  justify-content: center;
+}
+input{
+  outline: none;
+}
+/* Khung chính */
+.list-post-wrapper {
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 5px rgb(204, 204, 204);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 1300px;
+  margin-top: 50px;
+}
+tr {
+  text-align: center;
+}
+.imageTD{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+/* Header */
+.list-post-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.list-post-header input,
+.list-post-header select {
+  padding: 6px 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.list-post-header button {
+  padding: 6px 14px;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.list-post-header button:hover {
+  background-color: #40a9ff;
+}
+
+/* Table buttons */
+.table button {
+  margin: 0 4px;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table button:nth-child(1) {
+  background-color: #faad14; /* Chặn */
+  color: white;
+}
+
+.table button:nth-child(1):hover {
+  background-color: #d48806;
+}
+
+.table button:nth-child(2) {
+  background-color: #52c41a; /* Sửa */
+  color: white;
+}
+
+.table button:nth-child(2):hover {
+  background-color: #389e0d;
+}
+
+.table button:nth-child(3) {
+  background-color: #ff4d4f; /* Xóa */
+  color: white;
+}
+
+.table button:nth-child(3):hover {
+  background-color: #cf1322;
+}
