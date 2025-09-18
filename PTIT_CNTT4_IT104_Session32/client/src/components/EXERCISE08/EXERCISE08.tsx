@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import "../EXERCISE07/Login.css";
 
 export default function EXERCISE08() {
-  const registeredUser = useSelector((state: any) => state.auth?.user || {});
+  const registeredUser = useSelector((state: any) => state.auth?.user);
   const [form, setForm] = useState({ email: "", password: "" });
   const dispatch = useDispatch();
 
