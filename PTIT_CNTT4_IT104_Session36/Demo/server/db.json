@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "taskName": "Học Redux Toolkit",
+      "completed": false,
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "taskName": "Làm bài tập React",
+      "completed": true,
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "taskName": "Dọn phòng",
+      "completed": false,
+      "priority": "Low"
+    }
+  ]
+}

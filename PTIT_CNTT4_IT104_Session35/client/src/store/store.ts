@@ -5,7 +5,7 @@ import ThemeReducer from "./slice/ThemeSlice";
 import viewModeReducer from './slice/ViewModeSlice'
 import menuReducer from './slice/MenuSlice'
 import languageReducer from './slice/LanguageSlice'
-import FavoriteReducer from './slice/favoriteSlice'
+import FavoriteReducer from './slice/FavoriteSlice'
 import AuthReducer from './slice/SaveLoginSlice'
 export const store = configureStore({
   reducer: {
