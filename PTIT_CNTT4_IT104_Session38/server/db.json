@@ -1,0 +1,39 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Học C++ádasdádsad",
+      "author": "author DML",
+      "year": 2021,
+      "category": "Lập trình"
+    },
+    {
+      "id": 2,
+      "title": "Lập trình Java cơ bản",
+      "author": "Nguyễn Văn A",
+      "year": "2020",
+      "category": "Lập trình"
+    },
+    {
+      "id": 3,
+      "title": "Python cho người mới bắt đầu",
+      "author": "Trần Thị B",
+      "year": "2022",
+      "category": "Lập trình"
+    },
+    {
+      "id": 4,
+      "title": "Thuật toán và cấu trúc dữ liệu",
+      "author": "Lê Minh C",
+      "year": "2019",
+      "category": "Khoa học máy tính"
+    },
+    {
+      "id": 5,
+      "title": "Trí tuệ nhân tạo cơ bản",
+      "author": "Phạm Văn D",
+      "year": "2023",
+      "category": "AI"
+    }
+  ]
+}
