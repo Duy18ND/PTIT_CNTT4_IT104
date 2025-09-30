@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Quần âu mẫu 1",
+      "categoryId": 1,
+      "price": 200000,
+      "image": "https://pos.nvncdn.com/fa2431-2286/ps/20250521_usVAFDIzRa.jpeg?v=1747802573",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Quần âu mẫu 2",
+      "categoryId": 1,
+      "price": 200000,
+      "image": "http://res.cloudinary.com/dveci7ij7/image/upload/v1759239444/et7bwxmqwnzdptfcywhr.jpg",
+      "status": "inactive"
+    },
+    {
+      "name": "quần âu mẫu 3",
+      "categoryId": 1,
+      "price": 1000000,
+      "image": "http://res.cloudinary.com/dveci7ij7/image/upload/v1759219313/btahbnjjqecr5lxvpqoj.jpg",
+      "status": "active",
+      "id": 3
+    },
+    {
+      "name": "quần âu mẫu 4",
+      "categoryId": 1,
+      "price": 1000000,
+      "image": "http://res.cloudinary.com/dveci7ij7/image/upload/v1759219405/pnpqpssxtprq3uygtsjj.jpg",
+      "status": "active",
+      "id": 4
+    },
+    {
+      "name": "Áo sơ mi công sở",
+      "categoryId": 2,
+      "price": 300000,
+      "image": "http://res.cloudinary.com/dveci7ij7/image/upload/v1759239274/ovod8strqvmo7lhi8lkq.jpg",
+      "status": "inactive",
+      "id": 5
+    },
+    {
+      "name": "Mũ Nồi Thêu CEKEKE Nón Beret Chất Nỉ Nhung Mùa Đông Ấm Áp Form Unisex Nam Nữ N165",
+      "categoryId": 3,
+      "price": 140000,
+      "image": "http://res.cloudinary.com/dveci7ij7/image/upload/v1759239658/s1b9fe249qtjqjumnpy7.png",
+      "status": "active",
+      "id": 6
+    },
+    {
+      "name": "Ao so mi",
+      "categoryId": 2,
+      "price": 123456,
+      "image": "",
+      "status": "active",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "quần",
+      "status": "active",
+      "describe": "Quần âu giá rẻ"
+    },
+    {
+      "id": 2,
+      "name": "áo",
+      "status": "active",
+      "describe": "áo nam/nữ"
+    },
+    {
+      "id": 3,
+      "name": "mũ",
+      "status": "active",
+      "describe": "mũ thời trang hàng hiệu số 1 Việt Nam"
+    }
+  ]
+}
